@@ -34,7 +34,7 @@ function Cronometro() {
   };
 
   return (
-    <div className="text-center mx-auto max-w-xs p-6 border border-gray-200 rounded-lg shadow-sm">
+    <div className="text-center mx-auto max-w-xs p-6 border border-gray-200 rounded-lg shadow-lg">
       {/* Pantalla del cronómetro */}
       <div className="text-4xl font-mono font-bold mb-6 tabular-nums">
         {formatearTiempo()}
